@@ -1,0 +1,91 @@
+/*general styling*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Syncopate:wght@400;700&display=swap');
+
+body{
+  text-align: center;
+}
+h1{
+  font-size: 60px;
+  color: black;
+  font-family: 'Syncopate';
+  font-weight: 700px;
+}
+
+h2{
+  color: black;
+  font-family: 'Syncopate';
+  font-weight: 400px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+
+p{
+  font-family: 'Raleway';
+  color: black;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+img{
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 12px #2C3657;
+}
+
+body{
+background: rgb(34,193,195);
+background: linear-gradient(260deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+ul{
+  padding: 0px;
+  list-style: none;
+  display: inline-flex;
+}
+
+ul > li > a{
+  font-size: 40px;
+  color: #ff8c42;
+  margin: 10px;
+}
+li > a:hover{
+  color: #ff3c38;
+}
+
+/*classes*/
+
+.button{
+  background-color: #ff8c42;
+  padding: 20px 20px;
+  border-radius: 36px;
+}
+
+.button:hover{
+  background-color: #ff3c38;
+}
+.header{
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px 40px 20px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  background-color: #a3a3a345;
+  align-self: auto;
+}
+
+.social-list{
+  width: 70%;
+  align-self: auto;
+  margin: 100px auto;
+  padding: 4px 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #a3a3a345;
+}
